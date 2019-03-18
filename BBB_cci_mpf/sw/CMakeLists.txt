@@ -80,7 +80,10 @@ endif(DOXYGEN_FOUND)
 ## and binary.
 ##
 set (OPAELIB_LIBS_PATH "" CACHE STRING "OPAE libs path")
-set (OPAELIB_INC_PATH "" CACHE STRING "OPAE include path")
+set (OPAELIB_INC_PATH "/home/kkara/Tools/opae-sdk/OPAESDK/include/")
+
+message("${OPAELIB_LIBS_PATH}")
+message("${OPAELIB_INC_PATH}")
 
 if (WIN32)
     if("X$ENV{OPAELIB_ROOT}X" STREQUAL "XX")

@@ -92,3 +92,5 @@ set_global_assignment -name SYSTEMVERILOG_FILE $CCI_MPF_SRC/hw/rtl/cci-mpf-shims
 
 ## Constraints
 set_global_assignment -name SDC_FILE $CCI_MPF_SRC/hw/par/sdc_cci_mpf.sdc
+
+set_global_assignment -name PROGRAMMABLE_POWER_TECHNOLOGY_SETTING "FORCE ALL TILES WITH FAILING TIMING PATHS TO HIGH SPEED"
